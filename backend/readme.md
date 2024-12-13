@@ -1,0 +1,3 @@
+- Optionnel: créer un venv avec `python -m venv .venv` et l'activer
+- Installer les dépendances avec `pip install -r requirements.txt`
+- Lancer le projet avec `flask run --debug`

@@ -1,0 +1,20 @@
+<p>chart-page works!</p>
+
+<p>Nombre de voyages: {{ nbVoyages }}</p>
+<p>Prix moyen: {{ prixMoyen }}</p>
+<p>Note moyenne: {{ avisMoyen }}</p>
+
+<div class="number-cards">
+    <ngx-charts-number-card [results]="indicatorsDataExo2NbVoyages"></ngx-charts-number-card>
+    <ngx-charts-number-card [results]="indicatorsDataExo2Prix"></ngx-charts-number-card>
+    <ngx-charts-number-card [results]="indicatorsDataExo2Avis"></ngx-charts-number-card>
+</div>
+<div class="pie-chart">
+    <ngx-charts-pie-chart
+    [results]="motifsInsatisfaction"
+    [legend]="false"
+    [labels]="true"
+    [doughnut]="false">
+    </ngx-charts-pie-chart>
+</div>
+

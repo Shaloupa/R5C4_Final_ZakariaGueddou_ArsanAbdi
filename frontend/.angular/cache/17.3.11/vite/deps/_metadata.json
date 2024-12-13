@@ -1,0 +1,52 @@
+{
+  "hash": "f6d293d7",
+  "configHash": "69ebe136",
+  "lockfileHash": "9a56e1ba",
+  "browserHash": "e8d67880",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "a88fb643",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "e18b4a5c",
+      "needsInterop": false
+    },
+    "@angular/platform-browser/animations": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/animations.mjs",
+      "file": "@angular_platform-browser_animations.js",
+      "fileHash": "ef06b6c1",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "5e22b631",
+      "needsInterop": false
+    },
+    "@swimlane/ngx-charts": {
+      "src": "../../../../../node_modules/@swimlane/ngx-charts/fesm2022/swimlane-ngx-charts.mjs",
+      "file": "@swimlane_ngx-charts.js",
+      "fileHash": "1c533936",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-SJ3VLK3N": {
+      "file": "chunk-SJ3VLK3N.js"
+    },
+    "chunk-XP4D2PHO": {
+      "file": "chunk-XP4D2PHO.js"
+    },
+    "chunk-LWRES5L7": {
+      "file": "chunk-LWRES5L7.js"
+    },
+    "chunk-K53DMGGC": {
+      "file": "chunk-K53DMGGC.js"
+    }
+  }
+}
