@@ -1,14 +1,11 @@
 import { Routes } from '@angular/router';
-import { HomepageComponent } from './homepage/homepage.component';
-import { ChartPageComponent } from './chart-page/chart-page.component';
+import { HomeComponent } from './home/home.component';
+import { ListComponent } from './list/list.component';
+import { ChartComponent } from './chart/chart.component';
 
 export const routes: Routes = [
-  {
-    path: '',
-    component: HomepageComponent,
-  },
-  {
-    path: 'dashboard',
-    component: ChartPageComponent,
-  },
+  { path: '', component: HomeComponent }, // Page d'accueil
+  { path: 'list', component: ListComponent }, // Page de liste paginée
+  { path: 'chart', component: ChartComponent }, // Page graphique
+  { path: '**', redirectTo: '' } // Redirection vers la page d'accueil pour les routes invalides
 ];

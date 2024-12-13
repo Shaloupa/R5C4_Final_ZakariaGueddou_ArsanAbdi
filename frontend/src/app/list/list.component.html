@@ -1,0 +1,8 @@
+<div class="container">
+    <div *ngFor="let search of searches">
+      <p>{{ search.algorithm }} - {{ search.time_ns }} ns</p>
+    </div>
+    <button (click)="prevPage()" [disabled]="page === 1">Précédent</button>
+    <button (click)="nextPage()" [disabled]="page * limit >= total">Suivant</button>
+  </div>
+  

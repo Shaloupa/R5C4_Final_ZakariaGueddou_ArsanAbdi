@@ -1,43 +1,52 @@
 {
-  "hash": "f6d293d7",
-  "configHash": "69ebe136",
-  "lockfileHash": "9a56e1ba",
-  "browserHash": "e8d67880",
+  "hash": "2dce605d",
+  "configHash": "175ce0f2",
+  "lockfileHash": "f3fabc40",
+  "browserHash": "5ee2b205",
   "optimized": {
+    "@angular/common/http": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "a1409f4a",
+      "needsInterop": false
+    },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "a88fb643",
+      "fileHash": "91b4c5d8",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "e18b4a5c",
+      "fileHash": "a96eaef3",
       "needsInterop": false
     },
     "@angular/platform-browser/animations": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/animations.mjs",
       "file": "@angular_platform-browser_animations.js",
-      "fileHash": "ef06b6c1",
+      "fileHash": "6bc2ff59",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "5e22b631",
+      "fileHash": "43773c06",
       "needsInterop": false
     },
     "@swimlane/ngx-charts": {
       "src": "../../../../../node_modules/@swimlane/ngx-charts/fesm2022/swimlane-ngx-charts.mjs",
       "file": "@swimlane_ngx-charts.js",
-      "fileHash": "1c533936",
+      "fileHash": "38b5080d",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-SJ3VLK3N": {
-      "file": "chunk-SJ3VLK3N.js"
+    "chunk-EVDSZ5P3": {
+      "file": "chunk-EVDSZ5P3.js"
+    },
+    "chunk-CBX7A57L": {
+      "file": "chunk-CBX7A57L.js"
     },
     "chunk-XP4D2PHO": {
       "file": "chunk-XP4D2PHO.js"
